@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/provider?createDatabaseIfNotExist=true&serverTimezone=UTC
+    username: root
+    password: duda2015
+  jpa:
+    hibernate:
+      ddl-auto: update
